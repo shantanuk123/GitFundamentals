@@ -498,3 +498,174 @@
   578  git status
   579  git loggraphall
   580  history>commands.txt
+    1  cd CustomerOrder/
+    2  git clone https://github.dev.global.tesco.org/UKGrocery/GAPICustomerOrder_V1.git
+    3  ls
+    4  cd GAPICustomerOrder_V1/
+    5  git log --online --graph
+    6  git log --oneline --graph
+    7  git shortlog
+    8  git shortlog -sne
+    9  git show HEAD
+   10  git show HEAD~1
+   11  git show HEAD~2
+   12  git show HEAD~3
+   13  git log --oneline
+   14  git remote
+   15  git remote -v
+   16  cat .git/config
+   17  git cofig --global
+   18  git cofig --global -l
+   19  git cofig --local -l
+   20  git cofig --repository -l
+   21  git cofig
+   22  git cofig -l
+   23  git cofig --local -l
+   24  git branch
+   25  git branch -r
+   26  git tags
+   27  git tag
+   28  git stage
+   29  git remote -v
+   30  history
+   31  git config --local
+   32  git config --local -l
+   33  pwd
+   34  code
+   35  pwd
+   36  ls
+   37  history
+   38  cd Lessons/
+   39  ls
+   40  cd gitPluralsight/
+   41  ls
+   42  cd g
+   43  cd GitFundamentals/
+   44  ls
+   45  history
+   46  git loggrapphall
+   47  git branch feature3 v1.0
+   48  git loggrapphall
+   49  git checkout feature3
+   50  git loggrapphall
+   51  ls
+   52  vim file1.txt 
+   53  git status
+   54  rm README.txt.orig 
+   55  git status
+   56  git commit -am "Added more feature in feature3"
+   57  git status
+   58  git loggrapphall
+   59  git show feature3
+   60  git loggrapphall
+   61  git rebase master
+   62  git loggrapphall
+   63  git checkout master
+   64  git loggrapphall
+   65  git merge feature3
+   66  git loggrapphall
+   67  git checkout Bug123
+   68  git checkout Bug1234
+   69  git rebase master
+   70  git status
+   71  vim README.txt 
+   72  git mergetool
+   73  git status
+   74  git diff cached
+   75  git diff --cached
+   76  git rebase --continue
+   77  git mergetool
+   78  git status
+   79  git diff --cached
+   80  git rebase --continue
+   81  git status
+   82  rm README.txt.orig 
+   83  git loggrapphall
+   84  git checkout master
+   85  git status
+   86  git loggrapphall
+   87  git merge Bug1234
+   88  git status
+   89  git loggrapphall
+   90  git branch -d feature3
+   91  git loggrapphall
+   92  git branch -d Bug1234
+   93  git loggrapphall
+   94  git branch -d feature2
+   95  git branch -d feature2_additional
+   96  git loggrapphall
+   97  git branch v1.0_fixes v1.0
+   98  git checkout v1.0_fixes
+   99  git loggrapphall
+  100  git status
+  101  echo "Fix1" >> file1.txt 
+  102  git commit -am "Fix1 applied"
+  103  git status
+  104  echo "Fix2" >> file2.txt
+  105  git status
+  106  git commit -am "Fix2 applied"
+  107  git status
+  108  git loggrapphall
+  109  git checkout master
+  110  git loggrapphall
+  111  git cherry-pick --help
+  112  git cherry-pick 291689e
+  113  git status
+  114  git mergetool
+  115  git cherry-pick --help
+  116  git cherry-pick --help
+  117  git cherry-pick --continue
+  118  git status
+  119  git loggrapphall
+  120  git diff --cached
+  121  cat file1.txt
+  122  git merge v1.0_fixes
+  123  git status
+  124  git loggrapphall
+  125  git mergetool
+  126  git status
+  127  git loggrapphall
+  128  cat file1.txt
+  129  git diff --cached
+  130  git commit -am "v1.0_fixes merged"
+  131  git status
+  132  rm file1.txt.orig 
+  133  git loggrapphall
+  134  cat file1.txt 
+  135  cat file2.txt
+  136  git diff --cached
+  137  git reset --soft HEAD~1
+  138  git status
+  139  git loggrapphall
+  140  git fetch origin master
+  141  git status
+  142  git loggrapphall
+  143  git push
+  144  git status
+  145  git loggrapphall
+  146  git push origin v1.0_Fix
+  147  git push origin v1.0_Fixes
+  148  git push origin v1.0_Fixes
+  149  git branch -r
+  150  git status
+  151  git push origin v1.0_Fixes:v1.0_Fix_Remote
+  152  git push origin v1.0_Fixes:refs/v1.0_Fix_Remote
+  153  git status
+  154  git loggrapphall
+  155  git branch -r
+  156  git push origin v1.0_Fixes
+  157* git push origin v1.0_Fixes
+  158  git push origin/master v1.0_Fixes
+  159  git push origin v1.0_Fixes
+  160  ls
+  161  git status
+  162  git add -a
+  163  git add -A
+  164  git status
+  165  git loggrapphall
+  166  git commt -am "Final version"
+  167  git status
+  168  git loggrapphall
+  169  git status
+  170  history
+  171  history >> commands.txt 
