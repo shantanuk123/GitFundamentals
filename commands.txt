@@ -1,0 +1,500 @@
+   81  git status
+   82  git add file3.txt file4.txt
+   83  touch file3.txt file4.txt
+   84  git status
+   85  git add -A
+   86  git status
+   87  vim README.txt 
+   88  vim README.txt 
+   89  git diff
+   90  git diff README.txt 
+   91  vim file1.txt 
+   92  git status
+   93  git diff
+   94  git add -U
+   95  git add -u
+   96  git status
+   97  log
+   98  git log
+   99  git commit -m "Added cool files & tried add & diff options"
+  100  git status
+  101  git log
+  102  git diff
+  103  git diff HEAD
+  104  git diff HEAD..
+  105  git diff HEAD~1..
+  106* 
+  107  git diff HEAD~2
+  108  git diff HEAD~2..HEAD~1
+  109  git diff HEAD~2..HEAD~1 README.txt 
+  110  git diff HEAD~1..HEAD README.txt 
+  111  git diff HEAD~2..HEAD README.txt 
+  112  git diff HEAD~1..HEAD
+  113  rm file4.txt 
+  114  git add -u
+  115  git status
+  116  vim file2.txt
+  117  git status
+  118  git add file3.txt 
+  119  git status
+  120  git add file2.txt 
+  121  git status
+  122  mv file1.txt newFile1.txt
+  123  git status
+  124  git add -u
+  125  git add -A
+  126  git status
+  127  git commit -m "Reorganized files"
+  128  git status
+  129  git log
+  130  vim file2.txt 
+  131  vim file2.txt 
+  132  git status
+  133  git checkout file2.txt 
+  134  git status
+  135  git log
+  136  cat file2.txt
+  137  git status
+  138  vim file2.txt 
+  139  rm newFile1.txt 
+  140  git status
+  141  git checkout
+  142  git status
+  143  git reset
+  144  git status
+  145  git reset --help
+  146  git reset --help
+  147  git reset --hard
+  148  git status
+  149  git log
+  150  git reset --soft HEAD~1
+  151  git log
+  152  git status
+  153  git commit -m "Reorganized Rectified..."
+  154  git status
+  155  git log
+  156  git reset --help
+  157  git log
+  158  git reset --hard HEAD~1
+  159  git status
+  160  git log
+  161  git reset --help
+  162  git clean --help
+  163  ls
+  164  touch file5.txt
+  165  touch file6.txt
+  166  mkdir folder1
+  167  ls
+  168  git status
+  169  cd folder1/
+  170  touch file1.txt
+  171  cd ..
+  172  ls
+  173  git status
+  174  git clean
+  175  git clean -n
+  176  git clean -f -n
+  177  git clean -f
+  178  ls
+  179  git status
+  180  git clean --help
+  181  git clean -d
+  182  git clean --help
+  183  git clean -d -f
+  184  git status
+  185  ls
+  186  touch logs\today.logs
+  187  ls
+  188  ls logs
+  189  ls -l
+  190  git status
+  191  git clean -f
+  192  git status
+  193  touch logs/log1.log
+  194  ls
+  195  touch logs/log1.tx
+  196  touch logs/log1.txt
+  197  ls
+  198  mkdir logs
+  199  touch logs/log1.txt
+  200  ls
+  201  git status
+  202  vim .gitignore
+  203  git status
+  204  touch logs/log1.log
+  205  git status
+  206  git commit -m "Added .gitignore"
+  207  git commit -a -m "Added .gitignore"
+  208  git status
+  209  git commit -m "Added .gitignore" -a
+  210  git status
+  211  git add
+  212  git add .gitignore 
+  213  git status
+  214  git commit -m "Added .gitignore"
+  215  git status
+  216  touch logs/log2.log
+  217  mkdir logs/
+  218  cd logs
+  219  ls
+  220  mkdir logs
+  221  touch logs/log101.txt
+  222  cd ..
+  223  ls
+  224  git status
+  225  ls -al
+  226  git log
+  227  pwd
+  228  cd ..
+  229  git clone https://github.com/jquery/jquery.git
+  230  git status
+  231  ls
+  232  cd jquery/
+  233  ls
+  234  ls -l
+  235  clear
+  236  ls -l
+  237  git log
+  238  git log --online
+  239  git log --oneline
+  240  git log --help
+  241  git log --oneline | wc
+  242  git log --oneline | wc -l
+  243  git log --oneline | wc -w
+  244  git log --oneline | wc -c
+  245  git log --graph
+  246  git log --oneline --graph
+  247  git log --oneline --graph
+  248  pwd
+  249  cd ../GitFundamentals/
+  250  git remote -v
+  251  git remote add origin https://github.com/shantanuk123/Try.git;2D
+  252  ls
+  253  ls -al
+  254  ls .git -al
+  255  ls -al
+  256  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  257  git remote add origin https://github.com/shantanuk123/GitFundamental.git
+  258  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  259  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  260  git remote -v
+  261  git config --local
+  262  git config --local -l
+  263  git remote set-url origin https://github.com/shantanuk123/GitFundamentals.git
+  264  git config --local -l
+  265  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  266  git remote -v
+  267  git remote rm origin
+  268  git remote add origin https://github.com/shantanuk123/GitFundamental.git
+  269  git config --local -l
+  270  git fetch
+  271  git remote rm origin
+  272  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  273  git fetch
+  274  git fetch origin
+  275  git log
+  276  git log origin master
+  277  git log origin/master
+  278  git merge origin/master
+  279  git log
+  280  git status
+  281  ls -l
+  282  last
+  283  history
+  284  pwd
+  285  git branch -r
+  286  git branch --help
+  287  git remote show
+  288  git remote show origin
+  289  git fetch origin/master
+  290  git remote -v
+  291  git fetch
+  292  git log
+  293  git fetch origin
+  294  git log
+  295  git log origin/master
+  296  git merge origin/master
+  297  git log
+  298  git log origin/master
+  299  git show remote origin
+  300  git remote show origin
+  301  git fetch; git merge origin/master
+  302  git pull
+  303  git pull origin/master
+  304  git pull origin
+  305  git ull
+  306  git branch --set-upstream master origin/master
+  307  git branch --track master origin/master
+  308  git branch --set-upstream-to master origin/master
+  309  git remote rm origin
+  310  git remote -v
+  311  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  312  git remote -v
+  313  git fetch
+  314  git log
+  315  git log origin/master
+  316  git fetch origin
+  317  git log
+  318  git log origin/master
+  319  git fetch
+  320  git log origin/master
+  321  git merge origin/master
+  322  git branch -r
+  323  git pull
+  324  git branch --set-upstream-to master origin/master
+  325  git remote rm origin
+  326  git remote -v
+  327  git remote add origin https://github.com/shantanuk123/GitFundamentals.git
+  328  git fetch --help
+  329  git fetch
+  330  git merge origin/master
+  331  git branch -r
+  332  git pull
+  333  git branch --set-upstream-to master origin/master
+  334  git branch --set-upstream-to master origin
+  335  git branch -r
+  336  git log
+  337  git log origin/master
+  338  git branch --set-upstream-to master origin/master
+  339  git pull origin master
+  340  git branch --set-upstream-to origin master
+  341  git branch --set-upstream-to master/origin
+  342  git branch --set-upstream-to master master/origin
+  343  ls -l
+  344  vim README.txt 
+  345  git status
+  346  git commit -am "Sharing is Easy"
+  347  git status
+  348  git log
+  349  git push
+  350  git push --set-upstream origin master
+  351  git pull
+  352  git branch --set-upstream-to master master/origin
+  353  git branch --set-upstream-to master origin
+  354  git pull remote origin
+  355  git pull origin/master master
+  356  git remote -v
+  357  git merge
+  358  git merge origin/master
+  359  git pull origin master --allow-unrelated-histories
+  360  git log
+  361  git status
+  362  git push
+  363  git merge
+  364  git merge origin/master
+  365  git pull
+  366  git branch --set-upstream-to master master/origin
+  367  git branch --set-upstream-to master origin/master
+  368  git pull
+  369  git branch --set-upstream-to origin/master master
+  370  ls -l
+  371  vim README.md
+  372  vim README.txt 
+  373  git status
+  374  git commit -am "FInall fixed Git Merge"
+  375  git status
+  376  git log
+  377  git push
+  378  git log
+  379  git fetch
+  380  git tag v1.0
+  381  git tag
+  382  git tag --help
+  383  git tag -am "First Stable Version"
+  384  git tag -am v1.0_First_Stable_Version
+  385  git tag -m v1.0_First_Stable_Version
+  386  git tag -a v1.0_First_Stable_Version
+  387  git tag
+  388  git log
+  389  git tag --help
+  390  git tag -s v1.0_Signed -m "This is my first signed tag"
+  391  git config --global gpg.program $(which gpg)
+  392  git tag -s v1.0_Signed -m "This is my first signed tag"
+  393  git config --global gpg.program $(which gpg2)
+  394  git tag -s v1.0_Signed -m "This is my first signed tag"
+  395  git tag -v v1.0
+  396  git tag
+  397  git tag -v v1.0_First_Stable_Version
+  398  git push tags
+  399  git push --tags
+  400  history
+  401  history>commands.txt
+  402  ls -l
+  403  vim commands.txt 
+  404  git log --graph --oneline --all
+  405  git log --graph --oneline --all --decorate
+  406  git config --global alias.loggraphall "log --graph --oneline --all --decorate"
+  407  loggraphall
+  408  git loggraphall
+  409  git branch feature1
+  410  git logallgraph
+  411  git loggraphall
+  412  git checkout feature1
+  413  git logallgraph
+  414  git loggraphall
+  415  echo "Feature1 branch added" >> README.txt 
+  416  git status
+  417  git commit -am "new branch added"
+  418  git loggraphall
+  419  git checkout master
+  420  git loggraphall
+  421  git branch fix1 b021e8f
+  422  git loggraphall
+  423  git checkout fix1
+  424  git loggraphall
+  425  echo "Fixed defect on b021e8f">>README.txt 
+  426  git status
+  427  git commit -am "Fixed defect b021ee8f"
+  428  git status
+  429  git loggraphall
+  430  git checkout master
+  431  git loggraphall
+  432  git branch fix1 bug1234
+  433  git branch -m fix1 bug1234
+  434  git loggraphall
+  435  git branch -d bug1234
+  436  git branch -D bug1234
+  437  git loggraphall
+  438  git checkout -b feature2
+  439  git loggraphall
+  440  echo "Feature2 branch added by aggregate command git checkout -b feature2" >> README.txt 
+  441  git commit --help
+  442  git commit -m "Feature2 Added"
+  443  git commit -am "Feature2 Added"
+  444  git loggraphall
+  445  git ref
+  446  git reflog
+  447  git branch Bug1234 35277d3
+  448  git loggraphall
+  449  git checkout Bug1234
+  450  git show
+  451  git show HEAD
+  452  git loggraphall
+  453  git checkout feature2
+  454  echo "Feature2 Changes " >> README.txt 
+  455  git status
+  456  git stash
+  457  git status
+  458  git loggraphall
+  459  cat README.txt 
+  460  git stash list
+  461  git checkout Bug1234
+  462  echo "Bug1234 fixed again" >>README.txt 
+  463  gt commit -am "Bug1234 Refixed"
+  464  git commit -am "Bug1234 Refixed"
+  465  git status
+  466  git loggraphall
+  467  git checkout feature2
+  468  git loggraphall
+  469  git statsh apply 
+  470  git stash apply 
+  471  git status
+  472  cat README.txt 
+  473  git statsh list
+  474  git stash list
+  475  git reset --hard HEAD
+  476  git loggraphall
+  477  git status
+  478  git stash pop
+  479  git status
+  480  git loggraphall
+  481  git stash list
+  482  git stash
+  483  git status
+  484  git stash list
+  485  git loggraphall
+  486  history
+  487  history>commands.txt 
+  488  git add commands.txt 
+  489  git stash
+  490  git status
+  491  git loggraphall
+  492  git stash list
+  493  git stash drop
+  494  git stash list
+  495  git loggraphall
+  496  git stash branch feature2_additional
+  497  git stash list
+  498  git loggraphall
+  499  git commit -am "Addional Feature Added to Feature2"
+  500  git loggraphall
+  501  git log
+  502  git checkout master
+  503  git log
+  504  git loggraphall
+  505  git merge feature1
+  506  git loggraphall
+  507  git branch -d feature1
+  508  git loggraphall
+  509  git status
+  510  git merge feature2_additional
+  511  vim README.txt 
+  512  git mergetool
+  513  git mergetool --tool
+  514  git mergetool --tool=kdiff
+  515  git config --global
+  516  git config --global list
+  517  git config --global -l
+  518  git config -l
+  519  git mergetool --tool --help
+  520  git mergetool --help
+  521  history>commands.txt
+  522  ls
+  523  history
+  524  history --help
+  525  kdiff --help
+  526  kdiff3 --help
+  527  git config --global merge.tool kdiff3
+  528  echo $PATH
+  529  kdiff3
+  530  kdiff3 --help
+  531  kdiff3 --help
+  532  echo $PATH
+  533  git config --global mergetool.kdiff3.path /Applications/kdiff3.app/Contents/MacOS/kdiff3
+  534  git config --global -l
+  535  kdiff3
+  536  git merge feature2_additional
+  537  git loggraphall
+  538  vim README.txt
+  539  git mergetool
+  540  vim README.txt
+  541  git status
+  542  git reflog
+  543  git merge feature2_additional
+  544  git reset --merge ORIG_HEAD
+  545  git reflog
+  546  git merge feature2_additional
+  547  vim README.txt
+  548  git mergetool
+  549  vim README.txt
+  550  git loggraphall
+  551  git status
+  552  git reflog
+  553  git loggraphall
+  554  git cached
+  555  git --cached
+  556  git diff --cached
+  557  git difftool --help
+  558  git difftool --tool --help
+  559  git difftool --help
+  560  git difftool --tool-help
+  561  git difftool --tool=kdiff3
+  562  git cofig --global -l
+  563  git diff --cached
+  564  git cofig --global -l
+  565  git difftool --help
+  566  git config --global difftool.kdiff3.path /Applications/kdiff3.app/Contents/MacOS/kdiff3
+  567  git config --global diff.tool kdiff3
+  568  git cofig --global -l
+  569  git diff --cached
+  570  git diff --cached -t kdiff3
+  571  git config --global --help
+  572  git config --global --unset difftool.kdiff3.path
+  573  git cofig --global -l
+  574  git config --global difftool.kdiff3.path /Applications/kdiff3.app/Contents/MacOS/kdiff3
+  575  git cofig --global -l
+  576  git diff --cached
+  577  git commit -m "merged feature2_additional to master"
+  578  git status
+  579  git loggraphall
+  580  history>commands.txt
